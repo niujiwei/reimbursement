@@ -1,0 +1,37 @@
+#spring boot配置
+spring:
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: niujiwei
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    cache: false
+    content-type: text/html
+    encoding: UTF-8
+    mode: HTML5
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: reimbursement-module/src/main/java,reimbursement-module/src/main/resources/mapper,reimbursement-module/src/main/resources/templates/
+      exclude: reimbursement-module/static/**
+#服务器
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8080
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  typeAliasesPackage: com.jy.reimbursement.domain
+  global-config:
+    id-type: 2
+    field-strategy: 2
+    db-column-underline: true
+    refresh-mapper: true

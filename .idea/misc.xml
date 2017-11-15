@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/reimbursement-module/pom.xml" />
+        <option value="$PROJECT_DIR$/reimbursement-parent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/layout.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/layui.all.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/layui.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/carousel.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/code.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/element.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/flow.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/form.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/jquery.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/laydate.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/layedit.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/layer.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/laypage.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/laytpl.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/mobile.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/table.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/tree.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/upload.js" />
+    <file url="file://$PROJECT_DIR$/reimbursement-module/src/main/resources/static/plugin/layer/modules/util.js" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

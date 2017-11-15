@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<div th:fragment="body">
+    <div class="layui-tab admin-nav-card layui-tab-brief " lay-filter="layout-tab">
+        <ul class="layui-tab-title">
+            <li class="layui-this">
+                <a href="javascript:;">
+                    <i class="fa fa-dashboard" aria-hidden="true"></i>
+                    <cite>控制面板</cite>
+                </a>
+            </li>
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show ifm" style="min-height: 150px; padding: 5px 0 0 0;" >
+                <iframe th:src="@{/main}"></iframe>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</html>

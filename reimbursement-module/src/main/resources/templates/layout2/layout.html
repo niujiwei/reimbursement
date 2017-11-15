@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>Layout</title>
+
+    <link rel="stylesheet" th:href="@{plugin/layer/css/layui.css}" media="all"/>
+    <link rel="stylesheet" th:href="@{plugin/font-awesome/css/font-awesome.min.css}"/>
+    <link rel="stylesheet" th:href="@{css/layout.css}" media="all"/>
+</head>
+<body>
+<div class="layui-layout layui-layout-admin beg-layout-container">
+    <div class="layui-header beg-layout-header" th:include="layout2/header::header"></div>
+
+    <!--侧边导航栏-->
+    <div class="layui-side beg-layout-side" id="side" lay-filter="side" th:include="layout2/left::left"></div>
+    <!--内容区域-->
+    <div class="layui-body beg-layout-body" th:include="layout2/body::body"></div>
+    <!--页脚-->
+    <div class="layui-footer beg-layout-footer" th:include="layout2/footer::footer"></div>
+</div>
+<script th:src="@{plugin/layer/layui.js}"></script>
+<script>
+    layui.use(['element'], function () {
+        var element = layui.element,
+            $ = layui.jquery;
+        element.tabAdd('layout-tab', {
+            title: '选项卡的标题',//支持传入html
+            href: 'hello',
+            id: '选项卡标题的lay-id属性值'
+        });
+        //iframe自适应
+        $(window).on('resize', function () {
+            var $content = $('.layout-nav-card .layui-tab-content');
+            $content.height($(this).height() - 165);
+            $content.find('iframe').each(function () {
+                $(this).height($content.height());
+            });
+        }).resize();
+
+    });
+</script>
+</body>
+
+
+</html>
