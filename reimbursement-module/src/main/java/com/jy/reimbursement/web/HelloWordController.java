@@ -5,7 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by Administrator on 2017/11/9.
+ *
+ * @author Administrator
+ * @date 2017/11/9
  */
 @Controller()
 public class HelloWordController {
